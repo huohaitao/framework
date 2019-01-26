@@ -12,7 +12,7 @@ import java.lang.annotation.Target;
  * but if bean is needed immediately(Such as bean is need to be injectted to others or bean will be used), 
  * it will be createed.
  * @author huoht
- * @date 2018Äê12ÔÂ8ÈÕ
+ * @date 2018.11.23
  * @version V1.0
  */
 @Documented

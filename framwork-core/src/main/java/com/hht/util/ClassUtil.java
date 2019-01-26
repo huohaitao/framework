@@ -11,9 +11,9 @@ import org.apache.commons.lang3.StringUtils;
 public class ClassUtil {
 
 	/**
-	 * ´Ó¸ø³öµÄroot°üÏÂ»ñÈ¡Àà
+	 * ä»ç»™å‡ºçš„rootåŒ…ä¸‹è·å–ç±»
 	 * @param rootPackage
-	 * @param recursionChild ÊÇ·ñµİ¹é×Ó°ü
+	 * @param recursionChild æ˜¯å¦é€’å½’å­åŒ…
 	 * @return
 	 */
 	public static List<Class<?>> getClasses(String rootPackage, boolean recursionChild){
@@ -23,7 +23,7 @@ public class ClassUtil {
 	}
 	
 	/**
-	 * ¾­Ö¸¶¨µÄroot°üÏÂµÄÀàĞÅÏ¢¼ÓÔØµ½Ö¸¶¨µÄlistÖĞ
+	 * ç»æŒ‡å®šçš„rootåŒ…ä¸‹çš„ç±»ä¿¡æ¯åŠ è½½åˆ°æŒ‡å®šçš„listä¸­
 	 * @param rootPackage
 	 * @param recursionChild
 	 * @param container
@@ -42,15 +42,15 @@ public class ClassUtil {
 				container.add(clazz);
 			}
 		}catch (Exception e) {
-			throw new RuntimeException("¼ÓÔØÀàÊ±·¢ÉúÒì³££º", e);
+			throw new RuntimeException("åŠ è½½ç±»æ—¶å‘ç”Ÿå¼‚å¸¸ï¼š", e);
 		}
 		
 	}
 	
 	/**
-	 * »ñÈ¡Ö¸¶¨classÖĞµÄËùÓĞ×Ö¶ÎĞÅÏ¢
+	 * è·å–æŒ‡å®šclassä¸­çš„æ‰€æœ‰å­—æ®µä¿¡æ¯
 	 * @param clazz
-	 * @param includeSuper ÊÇ·ñ°üº¬¸¸ÀàÖĞµÄ×Ö¶Î
+	 * @param includeSuper æ˜¯å¦åŒ…å«çˆ¶ç±»ä¸­çš„å­—æ®µ
 	 * @return
 	 */
 	public static List<Field> getFields(Class<?> clazz, boolean includeSuper) {

@@ -10,6 +10,6 @@ public class TestServiceImpl1 implements TestService{
 	private TestHelper testHelper;
 	
 	public void test() {
-		System.out.println("Ö´ÐÐÐÂ°æservice test");
+		System.out.println("è°ƒç”¨ service test");
 	}
 }

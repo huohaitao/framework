@@ -13,12 +13,12 @@ public class TestServiceImpl implements TestService, Helper{
 	private TestService testService1;
 	
 	public void test() {
-		System.out.println("Ö´ÐÐÄ¬ÈÏservice test");
+		System.out.println("è°ƒç”¨  service test");
 		testHelper.test();
 	}
 
 	@Override
 	public void helper() {
-		System.out.println("Ö´ÐÐservice help");
+		System.out.println("è°ƒç”¨  service help");
 	}
 }

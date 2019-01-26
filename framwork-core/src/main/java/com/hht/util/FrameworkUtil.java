@@ -7,7 +7,7 @@ import com.hht.factory.BeanDefinition;
 public class FrameworkUtil {
 
 	/**
-	 * 获取bean定义 默认名称
+	 * 鑾峰彇bean瀹氫箟 榛樿鍚嶇О
 	 * @param bd
 	 * @return
 	 */

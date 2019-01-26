@@ -12,7 +12,7 @@ import java.lang.annotation.Target;
  * Indicate the class that be marked be a service component.
  * 
  * @author huoht
- * @date 2018Äê11ÔÂ23ÈÕ
+ * 2018.11.23
  * @version V1.0
  */
 @Documented

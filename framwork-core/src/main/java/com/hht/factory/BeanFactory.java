@@ -5,21 +5,21 @@ import java.util.List;
 public interface BeanFactory {
 
 	/**
-	 * »ñÈ¡Ö¸¶¨ÀàĞÍµÄbean
-	 * µ±´æÔÚ¶à¸öÍ¬ÀàĞÍµÄbeanÊ±Å×³öÒì³£
+	 * è·å–æŒ‡å®šç±»å‹çš„bean
+	 * å½“å­˜åœ¨å¤šä¸ªåŒç±»å‹çš„beanæ—¶æŠ›å‡ºå¼‚å¸¸
 	 * @param clazz
 	 * @return
 	 */
 	<R> R getBean(Class<R> clazz);
 	/**
-	 * »ñÈ¡Ö¸¶¨ÀàĞÍµÄËùÓĞbeanÊµÀı
+	 * è·å–æŒ‡å®šç±»å‹çš„æ‰€æœ‰beanå®ä¾‹
 	 * @param clazz
 	 * @return
 	 */
 	<R> List<R> getBeans(Class<R> clazz);
 	
 	/**
-	 * ¸ù¾İÖ¸¶¨ÀàĞÍºÍÃû×Ö»ñÈ¡beanÊµÀı
+	 * æ ¹æ®æŒ‡å®šç±»å‹å’Œåå­—è·å–beanå®ä¾‹
 	 * @param name
 	 * @param clazz
 	 * @return
@@ -27,7 +27,7 @@ public interface BeanFactory {
 	<R> R getBean(String name, Class<R> clazz);
 	
 	/**
-	 * ¸ù¾İbeanÃû×Ö»ñÈ¡beanÊµÀı
+	 * æ ¹æ®beanåå­—è·å–beanå®ä¾‹
 	 * @param name
 	 * @return
 	 */

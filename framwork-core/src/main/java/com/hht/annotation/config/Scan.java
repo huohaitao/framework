@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
  * Indicate componenet-scan will be enabale
  * 
  * @author huoht
- * @date 2018Äê11ÔÂ23ÈÕ
+ * @date 2018.11.23
  * @version V1.0
  */
 @Documented

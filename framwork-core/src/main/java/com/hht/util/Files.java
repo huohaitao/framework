@@ -8,9 +8,9 @@ import java.util.function.Predicate;
 public class Files {
 
 	/**
-	 * ÁĞ³öÖ¸¶¨Ä¿Â¼ÀïµÄÎÄ¼ş»òÕßÄ¿Â¼
-	 * @param path ¸ùÄ¿Â¼
-	 * @param recursionChild ÊÇ·ñµİ¹é×Ó¼¶Ä¿Â¼
+	 * åˆ—å‡ºæŒ‡å®šç›®å½•é‡Œçš„æ–‡ä»¶æˆ–è€…ç›®å½•
+	 * @param path æ ¹ç›®å½•
+	 * @param recursionChild æ˜¯å¦é€’å½’å­çº§ç›®å½•
 	 * @return
 	 */
 	public static List<File> listFiles(String path, boolean recursionChild){
@@ -20,10 +20,10 @@ public class Files {
 	}
 	
 	/**
-	 * ÁĞ³öÖ¸¶¨Ä¿Â¼ÀïµÄÎÄ¼ş»òÕßÄ¿Â¼
-	 * @param path ¸ùÄ¿Â¼
-	 * @param recursionChild ÊÇ·ñµİ¹é×Ó¼¶Ä¿Â¼
-	 * @param filter ¹ıÂËÆ÷(·µ»Øtrue±íÊ¾ĞèÒªµÄfile)
+	 * åˆ—å‡ºæŒ‡å®šç›®å½•é‡Œçš„æ–‡ä»¶æˆ–è€…ç›®å½•
+	 * @param path æ ¹ç›®å½•
+	 * @param recursionChild æ˜¯å¦é€’å½’å­çº§ç›®å½•
+	 * @param filter è¿‡æ»¤å™¨(è¿”å›trueè¡¨ç¤ºéœ€è¦çš„file)
 	 * @return
 	 */
 	public static List<File> listFiles(String path, boolean recursionChild, Predicate<File> filter){
@@ -37,7 +37,7 @@ public class Files {
 	}
 	
 	/**
-	 * ½«ÎÄ¼şÌáÈ¡µ½collectorÖĞ
+	 * å°†æ–‡ä»¶æå–åˆ°collectorä¸­
 	 * @param path
 	 * @param recursionChild
 	 * @param filter

@@ -15,7 +15,7 @@ public class ConfigScanner {
 	Logger logger = LoggerFactory.getLogger(this.getClass());
 	
 	/**
-	 * É¨ÃèÂ·¾¶ÅäÖÃ
+	 * æ‰«æè·¯å¾„é…ç½®
 	 * @param basePackage
 	 * @return
 	 */

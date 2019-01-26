@@ -14,7 +14,7 @@ import java.lang.annotation.Target;
  * if the value of the annotation not be setted framwork will inject value by type, otherwise it inject by name;
  * 
  * @author huoht
- * @date 2018Äê11ÔÂ23ÈÕ
+ * @date 2018.11.23
  * @version V1.0
  */
 @Documented
