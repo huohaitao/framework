@@ -16,7 +16,7 @@ public class TestController {
 	private TestHelper thelper;
 	
 	public void test() {
-		System.out.println("调用contoller test");
+		System.out.println("调用 contoller test");
 		this.testService.test();
 		if(this.testService1 != null) {
 			this.testService1.test();
